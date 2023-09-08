@@ -1,5 +1,5 @@
 import Foundation
-import Clibsodium
+import ClibsodiumWrapped
 
 public struct ShortHash {
     public let Bytes = Int(crypto_shorthash_bytes())

@@ -1,5 +1,5 @@
 import Foundation
-import Clibsodium
+import ClibsodiumWrapped
 
 public struct SecretStream {
     public let xchacha20poly1305 = XChaCha20Poly1305()

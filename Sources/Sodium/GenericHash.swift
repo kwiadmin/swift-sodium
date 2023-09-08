@@ -1,5 +1,5 @@
 import Foundation
-import Clibsodium
+import ClibsodiumWrapped
 
 public struct GenericHash {
     public let BytesMin = Int(crypto_generichash_bytes_min())

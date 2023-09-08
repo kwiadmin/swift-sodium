@@ -6,7 +6,7 @@
 //  Copyright © 2021 Frank Denis. All rights reserved.
 //
 
-import Clibsodium
+import ClibsodiumWrapped
 
 public struct Lib {
     public let VersionString = String(validatingUTF8:sodium_version_string())!
