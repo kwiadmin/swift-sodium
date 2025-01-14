@@ -1,5 +1,5 @@
 import Foundation
-import ClibsodiumWrapped
+import libsodium
 
 public protocol NonceGenerator {
     var NonceBytes: Int { get }

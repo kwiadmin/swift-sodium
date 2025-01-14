@@ -1,5 +1,5 @@
 import Foundation
-import ClibsodiumWrapped
+import libsodium
 
 public struct SecretBox {
     public let MacBytes = Int(crypto_secretbox_macbytes())

@@ -1,5 +1,5 @@
 import Foundation
-import ClibsodiumWrapped
+import libsodium
 
 public struct Utils {}
 

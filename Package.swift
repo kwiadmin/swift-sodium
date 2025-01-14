@@ -7,14 +7,10 @@ let package = Package(
         .library(name: "Sodium", targets: ["Sodium"]),
     ],
     targets: [
-        .binaryTarget(name: "Clibsodium", path: "Clibsodium.xcframework"),
-        .target(
-            name: "ClibsodiumWrapped",
-            dependencies: ["Clibsodium"]
-        ),
+        .binaryTarget(name: "libsodium", path: "Clibsodium.xcframework"),
         .target(
             name: "Sodium",
-            dependencies: ["ClibsodiumWrapped"],
+            dependencies: ["libsodium"],
             exclude: ["libsodium", "Info.plist"]
         ),
         .testTarget(

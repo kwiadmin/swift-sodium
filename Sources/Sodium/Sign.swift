@@ -1,5 +1,5 @@
 import Foundation
-import ClibsodiumWrapped
+import libsodium
 
 public struct Sign {
     public let Bytes = Int(crypto_sign_bytes())

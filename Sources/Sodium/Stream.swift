@@ -1,5 +1,5 @@
 import Foundation
-import ClibsodiumWrapped
+import libsodium
 
 public struct Stream {
     public let Primitive = String(validatingUTF8: crypto_stream_primitive())

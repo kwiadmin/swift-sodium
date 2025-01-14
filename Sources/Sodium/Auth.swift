@@ -1,5 +1,5 @@
 import Foundation
-import ClibsodiumWrapped
+import libsodium
 
 public struct Auth {
     public let Bytes = Int(crypto_auth_bytes())
